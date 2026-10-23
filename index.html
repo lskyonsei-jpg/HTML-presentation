@@ -57,6 +57,11 @@ tbody th{font-weight:600;white-space:nowrap}
 .cover h1{font:700 46pt/1.25 var(--serif);margin:0;text-wrap:balance}
 .cover .rule{width:96px;height:6px;background:var(--red)}
 .cover .subt{font:400 24pt/1.45 var(--sans);opacity:.92}
+.pts.big{gap:40px;margin-top:40px;font-size:30pt;line-height:1.45}
+.pts.big li{padding-left:30px}
+.pts.big li::before{width:11px;height:11px}
+.thanks{align-items:center;justify-content:center}
+.thanks .ty{font:700 66pt/1 var(--serif);color:var(--ink)}
 /* quote (S2) */
 .hrow{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
 .hrow h2{margin:0}
@@ -176,7 +181,7 @@ td .q{display:block;color:var(--sub);font-size:20pt;font-weight:400}
         <tr><th>발행</th><td>민간 은행</td><td>민간 발행자</td></tr>
         <tr><th>기준</th><td>통화감독청(OCC) 신설</td><td>통화감독청(OCC) 등</td></tr>
         <tr><th>담보</th><td>연방 국채 예치</td><td class="em">현금·단기국채 1:1</td></tr>
-        <tr><th>숨은 목적</th><td>남북전쟁 자금조달</td><td>미중 경쟁</td></tr>
+        <tr><th>숨은 목적?</th><td>남북전쟁 자금조달</td><td>미중 경쟁</td></tr>
       </tbody>
     </table>
     <ul class="pts"><li>2026.10.21 · 링컨의 국가통화법으로 만들어진 OCC, GENIUS법 시행규칙 확정</li></ul>
@@ -191,7 +196,7 @@ td .q{display:block;color:var(--sub);font-size:20pt;font-weight:400}
     <div class="r"><div class="k">RQ1</div><div class="v">통화패권국인 미국에서 왜<br>디지털 화폐 추격전략이 부상했는가?</div></div>
     <div class="r"><div class="k">RQ2</div><div class="v">그 수단은 왜 스테이블코인인가?</div></div>
   </div>
-  <aside class="notes">연구 질문은 두 가지입니다. 첫째, 통화패권국인 미국에서 왜 디지털 화폐 추격전략이 부상했는가. 이 질문은 3장에서 대외 요인인 디지털 화폐 경쟁과 내부 요인인 제도적 후발로 답합니다. 둘째, 그 수단은 왜 CBDC가 아니라 스테이블코인이었는가. 이 질문은 4장에서 추격의 최소 요건과 의회·연준·은행의 상호작용으로 답합니다.</aside>
+  <aside class="notes">연구 질문은 두 가지입니다. 첫째, 통화패권국인 미국에서 왜 디지털 화폐 추격전략이 부상했는가. 이 질문은 3장에서 대외 요인인 디지털 화폐 경쟁과 내부 요인인 제도적 후발로 답합니다. 둘째, 그 수단은 왜 CBDC가 아니라 스테이블코인이었는가. 이 질문은 4장에서 의회·연준·은행의 상호작용과 추격의 최소 요건으로 답합니다.</aside>
 </section>
 
 <!-- 4 대외 요인 -->
@@ -235,31 +240,9 @@ td .q{display:block;color:var(--sub);font-size:20pt;font-weight:400}
   <aside class="notes">두 번째 요인은 내부에 있습니다. 여기서 제도적 후발은 CBDC만이 아니라 디지털 화폐 전반의 문제입니다. 기술은 앞서 있었습니다. 보스턴 연준과 MIT의 Hamilton은 초당 170만 건을 처리했습니다. 시장도 앞서 있었습니다. 2021년 10월에 이미 대형 스테이블코인 시가총액이 1,270억 달러를 넘었습니다. 그런데 제도는 비어 있었습니다. 연준은 2022년 1월 보고서에서 행정부와 의회의 명확한 지지, 이상적으로는 수권법 없이는 CBDC를 발행하지 않겠다고 했고, 민간 디지털 화폐는 주마다 따로 인가를 받았고, 연방 차원에서는 SEC와 CFTC가 관할을 다투는 등 규제가 파편화되어 있었습니다. 기술과 시장은 앞서고 제도는 비어 있던 이 상황에서, 2022년 3월 바이든 행정부가 행정명령 14067로 대응을 시작합니다.</aside>
 </section>
 
-<!-- 6 최소 요건 -->
-<section class="slide" id="s6" data-t="4장 ① 추격의 최소 요건">
-  <div class="lab">4장 ① 추격의 최소 요건</div>
-  <h2>시장에 있던 달러 스테이블코인</h2>
-  <div class="bd">
-    <ul class="pts" style="flex:0 0 390px">
-      <li>요건 ① 바로 쓸 수 있을 것<span class="s">2025년 월 거래량 대체로 2조 달러 이상</span></li>
-      <li>요건 ② 해외 달러 결제를 맡을 것<span class="s">페소·헤알 거래소 매입의 절반 이상</span></li>
-      <li>달러 패권 → <span class="em">시장이 먼저 키운 수단</span></li>
-    </ul>
-    <div class="col tabs" style="flex:1">
-      <div class="tabbar" role="tablist">
-        <button role="tab" aria-selected="true" data-tab="v">월간 거래량</button>
-        <button role="tab" aria-selected="false" data-tab="s">통화별 매입 비중</button>
-      </div>
-      <div class="paper" data-pane="v" style="flex:1"><img class="fig" src="a/volume.png" alt="스테이블코인 월간 조정 거래량, 2023년 1월–2025년 7월 (Chainalysis)"></div>
-      <div class="paper" data-pane="s" style="flex:1" hidden><img class="fig" src="a/share.png" alt="통화별 거래소 매입 중 스테이블코인 비중, 2024년 7월–2025년 6월 (Chainalysis)"></div>
-    </div>
-  </div>
-  <aside class="notes">4장은 왜 하필 스테이블코인인가를 다룹니다. 어떤 수단이든 갖춰야 할 최소 요건은 두 가지였습니다. 제도 공백을 빨리 메울 수 있도록 지금 쓸 수 있어야 하고, 3장의 목표인 해외 달러 결제를 실제로 맡을 수 있어야 합니다. Chainalysis 2025 보고서를 보면, 2025년 스테이블코인 거래량은 대체로 월 2조 달러를 넘었고 정점은 3조 달러에 가까웠습니다. 두 번째 탭은 통화별로 거래소 매입 가운데 스테이블코인 비중을 보여 주는데, 콜롬비아·아르헨티나 페소와 브라질 헤알은 절반 이상이 스테이블코인 매입이었습니다. 인플레이션과 자본통제를 피해 달러를 찾는 수요입니다. 후발국이었다면 이런 수단이 시장에 없었을 것이고, 이 조건은 달러 패권에서 나옵니다.</aside>
-</section>
-
-<!-- 7 상호작용 -->
-<section class="slide" id="s7" data-t="4장 ② 의회·연준·은행의 조건">
-  <div class="lab">4장 ② 행위자 간 상호작용</div>
+<!-- 6 상호작용 -->
+<section class="slide" id="s6" data-t="4장 ① 의회·연준·은행의 조건">
+  <div class="lab">4장 ① 행위자 간 상호작용</div>
   <h2>의회·연준·은행의 조건</h2>
   <div class="col tabs" style="flex:1">
     <div class="tabbar" role="tablist">
@@ -283,42 +266,46 @@ td .q{display:block;color:var(--sub);font-size:20pt;font-weight:400}
       <div class="bx"><div class="k">결과</div><div class="v">eSLR 완화 <span class="sub">(2025.11)</span><br><span class="em">보상 범위는 미결</span></div></div>
     </div>
   </div>
-  <aside class="notes">세 행위자는 여기서 처음 등장합니다. 의회는 정부가 개인의 거래를 들여다볼 수 있다는 감시 문제를 제기했고, 2024년 5월 하원이 CBDC 금지법을 216 대 192로 통과시켰습니다. 금지는 결국 2026년 7월 주택법에 실려 성립했는데, 민간 달러 자산은 예외로 두었습니다. 연준은 수권법 없이는 발행하지 않겠다는 입장이었고, 스테이블코인에 대해서는 인출 쇄도 위험을 걱정했습니다. GENIUS법의 1대1 준비자산, 상환, 공시 요건이 이 조건에 대한 답입니다. 은행의 걱정은 예금 이탈이었고, GENIUS법은 보유만으로 이자를 주는 것을 금지했습니다. 다만 거래소 등이 주는 보상의 범위는 아직 다툼이 남아 있습니다. 이렇게 반대 이유가 조항으로 들어간 결과 GENIUS법은 상원 68 대 30, 하원 308 대 122로 통과했습니다.</aside>
+  <aside class="notes">4장은 왜 하필 스테이블코인인가를 다룹니다. 먼저 의회·연준·은행 세 행위자가 여기서 처음 등장합니다. 의회는 정부가 개인의 거래를 들여다볼 수 있다는 감시 문제를 제기했고, 2024년 5월 하원이 CBDC 금지법을 216 대 192로 통과시켰습니다. 금지는 결국 2026년 7월 주택법에 실려 성립했는데, 민간 달러 자산은 예외로 두었습니다. 연준은 수권법 없이는 발행하지 않겠다는 입장이었고, 스테이블코인에 대해서는 인출 쇄도 위험을 걱정했습니다. GENIUS법의 1대1 준비자산, 상환, 공시 요건이 이 조건에 대한 답입니다. 은행의 걱정은 예금 이탈이었고, GENIUS법은 보유만으로 이자를 주는 것을 금지했습니다. 다만 거래소 등이 주는 보상의 범위는 아직 다툼이 남아 있습니다. 이렇게 반대 이유가 조항으로 들어간 결과 GENIUS법은 상원 68 대 30, 하원 308 대 122로 통과했습니다.</aside>
 </section>
 
-<!-- 8 국가 목표 -->
-<section class="slide" id="s8" data-t="4장 ③ 국가 목표의 명시">
-  <div class="lab">4장 ③ 국가</div>
-  <h2>국가 목표의 명시</h2>
-  <div class="rows">
-    <div class="r"><div class="d">2025.1</div><div class="w">EO 14178</div><div>달러 주권 보호 수단 = 달러 스테이블코인 육성 · CBDC 금지</div></div>
-    <div class="r"><div class="d">2025.6</div><div class="w">OMB 정책성명</div><div>달러 지배력 강화 · 미 국채 수요 확대</div></div>
-    <div class="r"><div class="d">2025.11</div><div class="w">베센트 재무장관</div><div>시장 약 3,000억 → 3조 달러 <span class="sub">(2030 전망)</span> → 단기국채 수요</div></div>
-    <div class="r"><div class="d">설계</div><div class="w">GENIUS법</div><div>역외 발행자도 미국 기준 · 미국 법원 명령 준수 능력</div></div>
+<!-- 7 최소 요건 -->
+<section class="slide" id="s7" data-t="4장 ② 추격의 최소 요건">
+  <div class="lab">4장 ② 추격의 최소 요건</div>
+  <h2>시장에 있던 달러 스테이블코인</h2>
+  <div class="bd">
+    <ul class="pts" style="flex:0 0 430px">
+      <li>요건 ① 수단의 가용성<br>(바로 쓸 수 있을 것)<span class="s">2025년 월 거래량 대체로 2조 달러 이상</span></li>
+      <li>요건 ② 수단의 실질적 수요<br>(해외 달러 결제를 맡을 것)<span class="s">페소·헤알 거래소 매입의 절반 이상</span></li>
+      <li><span class="em">시장이 먼저 키운 수단</span> <span style="white-space:nowrap">← 달러 패권</span></li>
+    </ul>
+    <div class="col tabs" style="flex:1">
+      <div class="tabbar" role="tablist">
+        <button role="tab" aria-selected="true" data-tab="v">월간 거래량</button>
+        <button role="tab" aria-selected="false" data-tab="s">통화별 매입 비중</button>
+      </div>
+      <div class="paper" data-pane="v" style="flex:1"><img class="fig" src="a/volume.png" alt="스테이블코인 월간 조정 거래량, 2023년 1월–2025년 7월 (Chainalysis)"></div>
+      <div class="paper" data-pane="s" style="flex:1" hidden><img class="fig" src="a/share.png" alt="통화별 거래소 매입 중 스테이블코인 비중, 2024년 7월–2025년 6월 (Chainalysis)"></div>
+    </div>
   </div>
-  <aside class="notes">시장에 수단이 있었다는 것만으로는 국가전략이 되지 않습니다. 목표를 명시한 것은 국가였습니다. 2025년 1월 행정명령은 달러 주권을 지키는 수단으로 달러 스테이블코인의 전 세계적 성장을 명시했고, 6월 OMB 정책성명은 이 법이 달러 지배력을 높이고 미 국채 수요를 늘린다고 했습니다. 베센트 재무장관은 11월에 약 3천억 달러인 시장이 2030년까지 3조 달러로 커지고 그만큼 단기국채 수요가 늘 것이라고 했습니다. GENIUS법은 해외 발행자도 미국과 동등한 규제를 받고 미국 법원 명령을 따를 수 있어야 미국에서 유통되게 했습니다. 목표는 2022년과 같았고, 수단만 바뀐 것입니다.</aside>
+  <aside class="notes">행위자의 조건을 통과했다고 끝이 아닙니다. 어떤 수단이든 갖춰야 할 최소 요건이 두 가지 있었습니다. 첫째는 수단의 가용성으로, 제도 공백을 빨리 메울 수 있도록 지금 쓸 수 있어야 합니다. 둘째는 수단의 실질적 수요로, 3장의 목표인 해외 달러 결제를 실제로 맡을 수 있어야 합니다. Chainalysis 2025 보고서를 보면, 2025년 스테이블코인 거래량은 대체로 월 2조 달러를 넘었고 정점은 3조 달러에 가까웠습니다. 두 번째 탭은 통화별로 거래소 매입 가운데 스테이블코인 비중을 보여 주는데, 콜롬비아·아르헨티나 페소와 브라질 헤알은 절반 이상이 스테이블코인 매입이었습니다. 인플레이션과 자본통제를 피해 달러를 찾는 수요입니다. 후발국이었다면 이런 수단이 시장에 없었을 것이고, 이 조건은 달러 패권에서 나옵니다.</aside>
 </section>
 
-<!-- 9 결론 -->
-<section class="slide" id="s9" data-t="결론">
+<!-- 8 결론 -->
+<section class="slide" id="s8" data-t="결론">
   <div class="lab">결론</div>
   <h2>결론</h2>
-  <div class="bd">
-    <ul class="pts" style="flex:1.3">
-      <li>첫째, 디지털 화폐 경쟁 + 제도적 후발 → 추격의 필요</li>
-      <li>둘째, 최소 요건과 행위자 조건을 함께 통과한 수단 → 스테이블코인</li>
-      <li>셋째, 발행은 민간 · 기준과 목표는 국가 → <span class="em">달러 체계의 전략적 성격 강화</span></li>
-    </ul>
-    <table style="flex:1;align-self:flex-start">
-      <thead><tr><th></th><th>1863</th><th>2025</th></tr></thead>
-      <tbody>
-        <tr><th>발행</th><td>민간 은행권</td><td>민간 코인</td></tr>
-        <tr><th>담보</th><td>연방 국채</td><td>단기국채</td></tr>
-        <tr><th>기준</th><td>OCC</td><td>OCC 등</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <aside class="notes">정리하면 세 가지입니다. 첫째, 디지털 화폐 경쟁이라는 대외 요인과 제도적 후발이라는 내부 요인이 미국에게 추격의 필요를 만들었습니다. 둘째, 추격의 최소 요건과 의회·연준·은행의 조건을 함께 통과할 수 있었던 수단이 스테이블코인이었습니다. 셋째, 미국은 직접 발행을 포기했지만, 기준과 목표를 국가가 쥐면서 달러 체계의 전략적 성격은 오히려 강해졌습니다. 처음에 본 1863년의 구조가 160여 년 뒤 디지털 형태로 다시 나타난 셈입니다. 이 메커니즘은 시장에 이미 달러 코인이 있었기 때문에 가능했고, 그래서 통화 패권국에 한정됩니다.</aside>
+  <ul class="pts big">
+    <li>첫째, 디지털 화폐 경쟁 + 제도적 후발 → 추격의 필요</li>
+    <li>둘째, 행위자 조건과 최소 요건을 함께 통과한 수단 → 스테이블코인</li>
+  </ul>
+  <aside class="notes">정리하면 두 가지입니다. 첫째, 디지털 화폐 경쟁이라는 대외 요인과 제도적 후발이라는 내부 요인이 미국에게 추격의 필요를 만들었습니다. 둘째, 의회·연준·은행의 조건과 추격의 최소 요건을 함께 통과할 수 있었던 수단이 스테이블코인이었습니다. 이 메커니즘은 시장에 이미 달러 코인이 있었기 때문에 가능했고, 그래서 통화 패권국에 한정됩니다.</aside>
+</section>
+
+<!-- 9 감사 -->
+<section class="slide thanks" id="s9" data-t="감사합니다">
+  <div class="ty">감사합니다</div>
+  <aside class="notes">감사합니다. 질문 받겠습니다.</aside>
 </section>
 
 <div id="bar"></div>
